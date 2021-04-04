@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import { Title, Main } from "./styles";
+import HelloWorld from '../components/HelloWorld';
 
 
 export default function Home() {
@@ -10,11 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <Main>
-        <Title>Hello World!</Title>
-
-        <p>Work in progress... See you soon 😊</p>
-      </Main>
+      <HelloWorld/>
     </div>
   )
 }

@@ -1,5 +1,5 @@
 import Head from 'next/head'
-import HelloWorld from '../components/HelloWorld';
+import Scene from '../components/Scene';
 
 
 export default function Home() {
@@ -10,7 +10,7 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
-      <HelloWorld/>
+      <Scene/>
     </div>
   )
 }

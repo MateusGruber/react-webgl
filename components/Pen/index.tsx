@@ -38,7 +38,6 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
                 material={materials.plastic}
                 rotation={[0, 0, -Math.PI / 4]}
                 scale={[-0.21, -0.21, -0.21]}
-                material-color="#ffffff"
             />
             <mesh
                 name="button"
@@ -46,7 +45,6 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
                 material={materials.metal}
                 rotation={[0, 0, -Math.PI / 4]}
                 scale={[-0.21, -0.21, -0.21]}
-                material-color="#ffffff"
             />
             <mesh
                 name="tip"
@@ -54,7 +52,6 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
                 material={materials.metal}
                 rotation={[0, 0, -Math.PI / 4]}
                 scale={[-0.21, -0.21, -0.21]}
-                material-color="#ffffff"
             />
             <mesh
                 name="grafitti"
@@ -62,7 +59,6 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
                 material={materials.grafitti}
                 rotation={[0, 0, -Math.PI / 4]}
                 scale={[-0.21, -0.21, -0.21]}
-                material-color="#ffffff"
             />
             <mesh
                 name="clipping"
@@ -70,7 +66,6 @@ export default function Model(props: JSX.IntrinsicElements['group']) {
                 material={materials.metal}
                 rotation={[0, 0, -Math.PI / 4]}
                 scale={[-0.21, -0.21, -0.21]}
-                material-color="#ffffff"
             />
         </group>
     )

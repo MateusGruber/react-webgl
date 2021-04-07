@@ -5,7 +5,7 @@ import Pen from "../Pen"
 
 const Scene: FC = () => {
     return (
-        <Canvas concurrent pixelRatio={[1, 1.5]} camera={{ position: [0, 0, 4.75] }}>
+        <Canvas>
             <ambientLight intensity={1} color={0xffffff}/>
             <spotLight intensity={0.3} angle={0.1} penumbra={1} position={[5, 25, 20]}/>
             <group position={[0, 0.01, 100]}>

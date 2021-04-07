@@ -21,8 +21,6 @@ type GLTFResult = GLTF & {
     plastic: THREE.MeshStandardMaterial
     metal: THREE.MeshStandardMaterial
     grafitti: THREE.MeshStandardMaterial
-    metal: THREE.MeshStandardMaterial
-    ['default']: THREE.MeshStandardMaterial
     ['default']: THREE.MeshStandardMaterial
   }
 }
